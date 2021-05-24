@@ -1,17 +1,13 @@
 package br.com.alura.leilao.leiloes;
 
+import br.com.alura.leilao.PageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class CadastroLeilaoPage {
-    private WebDriver browser;
-    public CadastroLeilaoPage(WebDriver browser) {
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
-        this.browser = browser;
-    }
+public class CadastroLeilaoPage extends PageObject {
 
-    public void fechar() {
-        this.browser.quit();
+    public CadastroLeilaoPage(WebDriver browser) {
+        super(browser);
     }
 
     public LeiloesPage cadastrarLeilao(String nome, String valorInicial, String dataAbertura) {

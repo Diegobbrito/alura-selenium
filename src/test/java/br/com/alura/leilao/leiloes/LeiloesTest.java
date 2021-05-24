@@ -45,7 +45,6 @@ public class LeiloesTest {
         Assert.assertFalse(this.paginaDeCadastro.isPaginaAtual());
         Assert.assertTrue(this.paginaDeCadastro.isMensagensDeValidacaoVisiveis());
         Assert.assertTrue(this.paginaDeLeiloes.isPaginaAtual());
-
     }
 
 
