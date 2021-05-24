@@ -6,6 +6,8 @@ target/
 !**/src/main/**
 !**/src/test/**
 
+drivers/
+
 ### STS ###
 .apt_generated
 .classpath
